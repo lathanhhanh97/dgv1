@@ -1,24 +1,26 @@
 package com.thanhhanh.dgv.model;
 
+import org.springframework.http.HttpStatus;
+
 public class ResponseData<T> {
-    private String status;
+    private HttpStatus status;
     private String msg;
     private T data;
 
     public ResponseData() {
     }
 
-    public ResponseData(String status, String msg, T data) {
+    public ResponseData(HttpStatus status, String msg, T data) {
         this.status = status;
         this.msg = msg;
         this.data = data;
     }
 
-    public String getStatus() {
+    public HttpStatus getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(HttpStatus status) {
         this.status = status;
     }
 

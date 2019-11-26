@@ -22,10 +22,10 @@ public class Movie {
     private String movieCens;
 
     @Column(name = "movie_genres")
-    private int movieGenr;
+    private int movieGenres;
 
     @Column(name = "movie_release")
-    private String movieRele;
+    private String movieRelease;
 
     @Column(name = "movie_lenght")
     private String movieLeng;
@@ -39,13 +39,13 @@ public class Movie {
     public Movie() {
     }
 
-    public Movie(String movieName, String movieDesc, String movieTrailer, String movieCens, int movieGenr, String movieRele, String movieLeng, String movieFormat, String moviePoster) {
+    public Movie(String movieName, String movieDesc, String movieTrailer, String movieCens, int movieGenres, String movieRelease, String movieLeng, String movieFormat, String moviePoster) {
         this.movieName = movieName;
         this.movieDesc = movieDesc;
         this.movieTrailer = movieTrailer;
         this.movieCens = movieCens;
-        this.movieGenr = movieGenr;
-        this.movieRele = movieRele;
+        this.movieGenres = movieGenres;
+        this.movieRelease = movieRelease;
         this.movieLeng = movieLeng;
         this.movieFormat = movieFormat;
         this.moviePoster = moviePoster;
@@ -91,20 +91,20 @@ public class Movie {
         this.movieCens = movieCens;
     }
 
-    public int getMovieGenr() {
-        return movieGenr;
+    public int getMovieGenres() {
+        return movieGenres;
     }
 
-    public void setMovieGenr(int movieGenr) {
-        this.movieGenr = movieGenr;
+    public void setMovieGenres(int movieGenres) {
+        this.movieGenres = movieGenres;
     }
 
-    public String getMovieRele() {
-        return movieRele;
+    public String getMovieRelease() {
+        return movieRelease;
     }
 
-    public void setMovieRele(String movieRele) {
-        this.movieRele = movieRele;
+    public void setMovieRelease(String movieRelease) {
+        this.movieRelease = movieRelease;
     }
 
     public String getMovieLeng() {
