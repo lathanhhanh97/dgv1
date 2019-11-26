@@ -1,6 +1,6 @@
 package com.thanhhanh.dgv.controller;
 
-import com.thanhhanh.dgv.model.User;
+import com.thanhhanh.dgv.entity.User;
 import com.thanhhanh.dgv.repository.UserRepository;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

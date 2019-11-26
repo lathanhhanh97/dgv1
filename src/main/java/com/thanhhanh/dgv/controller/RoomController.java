@@ -1,6 +1,6 @@
 package com.thanhhanh.dgv.controller;
 
-import com.thanhhanh.dgv.model.Room;
+import com.thanhhanh.dgv.entity.Room;
 import com.thanhhanh.dgv.repository.RoomRepository;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

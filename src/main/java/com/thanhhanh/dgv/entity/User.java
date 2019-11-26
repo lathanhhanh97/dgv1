@@ -1,4 +1,4 @@
-package com.thanhhanh.dgv.model;
+package com.thanhhanh.dgv.entity;
 import javax.persistence.*;
 
 @Entity
@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="id")
+    @Column(name="user_id")
     private int userId;
 
     @Column(name = "username")

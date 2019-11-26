@@ -1,4 +1,4 @@
-package com.thanhhanh.dgv.model;
+package com.thanhhanh.dgv.entity;
 import javax.persistence.*;
 
 @Entity
@@ -15,10 +15,10 @@ public class Seat {
     @Column(name="room_id")
     private int roomId;
 
-    @Column(name="seat_row")
+    @Column(name="row")
     private char seatRow;
 
-    @Column(name="seat_num")
+    @Column(name="seat_number")
     private int seatNum;
 
     public Seat() {

@@ -1,4 +1,4 @@
-package com.thanhhanh.dgv.model;
+package com.thanhhanh.dgv.entity;
 
 import javax.persistence.*;
 

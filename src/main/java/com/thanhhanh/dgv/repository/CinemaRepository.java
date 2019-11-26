@@ -1,6 +1,6 @@
 package com.thanhhanh.dgv.repository;
 
-import com.thanhhanh.dgv.model.Cinema;
+import com.thanhhanh.dgv.entity.Cinema;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

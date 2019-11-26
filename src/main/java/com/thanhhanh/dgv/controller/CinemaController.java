@@ -1,6 +1,6 @@
 package com.thanhhanh.dgv.controller;
 
-import com.thanhhanh.dgv.model.Cinema;
+import com.thanhhanh.dgv.entity.Cinema;
 import com.thanhhanh.dgv.repository.CinemaRepository;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

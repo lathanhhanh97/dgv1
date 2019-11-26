@@ -1,8 +1,8 @@
-package com.thanhhanh.dgv.model;
+package com.thanhhanh.dgv.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "cinemas")
+@Table(name = "movies")
 public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,16 +18,16 @@ public class Movie {
     @Column(name = "movie_cens")
     private String movieCens;
 
-    @Column(name = "movie_genr")
+    @Column(name = "movie_genres")
     private int movieGenr;
 
-    @Column(name = "movie_rele")
+    @Column(name = "movie_release")
     private String movieRele;
 
-    @Column(name = "movie_leng")
+    @Column(name = "movie_lenght")
     private String movieLeng;
 
-    @Column(name = "movie_form")
+    @Column(name = "movie_format")
     private String movieFormat;
 
     @Column(name = "movie_poster")

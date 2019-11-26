@@ -1,6 +1,6 @@
 package com.thanhhanh.dgv.controller;
 
-import com.thanhhanh.dgv.model.Schedule;
+import com.thanhhanh.dgv.entity.Schedule;
 import com.thanhhanh.dgv.repository.ScheduleRepository;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.thanhhanh.dgv.repository;
 
-import com.thanhhanh.dgv.model.User;
+import com.thanhhanh.dgv.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
