@@ -15,6 +15,9 @@ public class Movie {
     @Column(name = "movie_description")
     private String movieDesc;
 
+    @Column(name = "movie_trailer")
+    private String movieTrailer;
+
     @Column(name = "movie_cens")
     private String movieCens;
 
@@ -36,9 +39,10 @@ public class Movie {
     public Movie() {
     }
 
-    public Movie(String movieName, String movieDesc, String movieCens, int movieGenr, String movieRele, String movieLeng, String movieFormat, String moviePoster) {
+    public Movie(String movieName, String movieDesc, String movieTrailer, String movieCens, int movieGenr, String movieRele, String movieLeng, String movieFormat, String moviePoster) {
         this.movieName = movieName;
         this.movieDesc = movieDesc;
+        this.movieTrailer = movieTrailer;
         this.movieCens = movieCens;
         this.movieGenr = movieGenr;
         this.movieRele = movieRele;
@@ -69,6 +73,14 @@ public class Movie {
 
     public void setMovieDesc(String movieDesc) {
         this.movieDesc = movieDesc;
+    }
+
+    public String getMovieTrailer() {
+        return movieTrailer;
+    }
+
+    public void setMovieTrailer(String movieTrailer) {
+        this.movieTrailer = movieTrailer;
     }
 
     public String getMovieCens() {
